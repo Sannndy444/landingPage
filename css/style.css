@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px 0px 20px;
-    background-color: #9A3B3B;
+    background-color: #0C0C0C;
 }
 
 /* .logo-container {
@@ -32,7 +32,7 @@ header {
 
 h1 {
     font-size: 25px;
-    color: black;
+    color: #F2613F;
 }
 
 .nav {
@@ -54,14 +54,14 @@ h1 {
 
 .nav li a {
     display: block;
-    color: black;
+    color: #F2613F;
     text-align: center;
     padding: 25px 25px;
     text-decoration: none;
 }
 
 .nav li a:hover {
-    background-color: #F2ECBE;
+    background-color: #481E14;
 }
 
 /* Header End */
@@ -69,11 +69,13 @@ h1 {
 /* Section Start */
 
 .background-section {
+    width: 1263px;
     position: relative;
-    background-image: url('../image/01.jpg');
+    background-image: url('../image/02.jpg');
     background-size: cover;
     background-position: center;
-    padding: 800px 0px 0px 0px;
+    padding: 100px 0px 500px 0px;
+    filter: blur(100%) brightness(-100%);
 }
 
 /* Section End */
