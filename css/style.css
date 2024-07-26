@@ -9,12 +9,14 @@ body {
     font-family: 'Poppins';
 }
 
+/* Header Start */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px 0px 20px;
-    background-color: #4F2F2F;
+    background-color: #9A3B3B;
 }
 
 /* .logo-container {
@@ -30,7 +32,7 @@ header {
 
 h1 {
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 .nav {
@@ -52,12 +54,26 @@ h1 {
 
 .nav li a {
     display: block;
-    color: rgb(249, 249, 249);
+    color: black;
     text-align: center;
     padding: 25px 25px;
     text-decoration: none;
 }
 
 .nav li a:hover {
-    background-color: #9B4922;
+    background-color: #F2ECBE;
 }
+
+/* Header End */
+
+/* Section Start */
+
+.background-section {
+    position: relative;
+    background-image: url('../image/01.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 800px 0px 0px 0px;
+}
+
+/* Section End */
