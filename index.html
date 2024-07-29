@@ -21,39 +21,26 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="nav1">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#home">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-                <h1>KoplingeeMontor</h1>
-            <div class="nav2">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#gallery">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="nav-extra">
-                <a href="#" id="hamburger-menu">
-                    <i data-feather="menu"></i>
-                </a>
-            </div>
+        <nav class="navbar">
+            <ul class="nav-left">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <h1 class="title">KoplingeeMontor</h1>
+            <ul class="nav-right">
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#social">Social</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
         </nav>
     </header>
+    <div class="sidebar" id="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#social">Social</a>
+    </div>
         
     
 
