@@ -183,6 +183,29 @@ header {
 .about h2 span {
     color: var(--primary);
 }
+
+.about .row {
+    display: flex;
+}
+
+.about .row .about-img {
+    flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+    width: 77%;
+}
+
+.about .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1;
+}
+
+.about .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+}
 /* About End */
 
 
