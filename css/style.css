@@ -214,8 +214,243 @@ header {
     font-size: 1.6rem;
     line-height: 1.4;
 }
+
+.nilai .nilai-container {
+    padding: 5rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nilai .nilai-container .nilai-img {
+    padding: 0;
+}
+
+.nilai .nilai-container .nilai-img img {
+    width: 40rem;
+    height: 35rem;
+}
+
+.nilai .nilai-container .nilai-text {
+    padding: 8rem 0 0 5rem;
+}
+
+.nilai .nilai-container .nilai-text h2 {
+    padding: 0;
+    font-size: 3rem;
+}
+
+.nilai .nilai-container .nilai-text h2 span {
+    color: var(--primary);
+}
+
+.nilai .nilai-container .nilai-text p {
+    padding: 1rem 0 0 0;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}   
 /* About End */
 
+/* Maps Start */
+.maps {
+    padding: 7rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.maps .maps-container {
+    padding: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.maps .maps-container iframe {
+    width: 90rem;
+    height: 40rem;
+}
+
+.maps h2 {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.maps h2 span {
+    color: var(--primary);
+}
+/* Maps End */
+
+/* Gallery Start */
+.gallery {
+    padding: 5rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery .gallery-container {
+    padding: 2rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .gallery-container img {
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+    object-fit: cover;
+}
+
+.gallery .gallery-container img:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.gallery h2 span {
+    color: var(--primary);
+}
+
+/* Gallery End */
+
+/* Contact Start */
+.contact {
+    padding: 7rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.contact h2 span {
+    color: var(--primary);
+}
+
+.contact .contact-container {
+    padding: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .contact-container form {
+    width: 50rem;
+}
+
+.contact .contact-container .form-group {
+    /* margin-bottom: 2rem; */
+}
+
+.contact .contact-container .form-group label {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+
+.contact .contact-container .form-group input, .contact .contact-container .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.contact .contact-container .form-group input:focus, .contact .contact-container .form-group textarea:focus {
+    border-color: var(--bg);
+    outline: none;
+}
+
+.contact .contact-container button {
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--bg);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.contact .contact-container button:hover {
+    background-color: var(--bg);
+    color: var(--primary);
+}
+/* Contact End */
+
+/* Footer Start */
+footer {
+    padding: 3rem 0 0 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-container {
+    display: flex;
+    background-color: var(--bg);
+    justify-content: space-between;
+}
+
+.footer-container .footer-left {
+    padding: 1rem;
+}
+
+.footer-container .footer-left img {
+    width: 8rem;
+}
+
+.footer-container .footer-center {
+    padding: 8rem 0 0 0;
+}
+
+.footer-container .footer-center p {
+    font-size: 1rem;
+    color: var(--primary);
+    align-items: center;
+}
+
+.footer-container .footer-right {
+    padding: 1rem;
+}
+
+.footer-container .footer-right h2 {
+    font-size: 2.6rem;
+    color: var(--primary);
+}
+
+.footer-container .footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container .footer-right ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footer-container .footer-right ul li a {
+    color: var(--primary);
+}
+
+.footer-container .footer-right ul li a:hover {
+    color: var(--bg);
+}
+/* Footer End */
 
 /* Media Quaries */
 /* Laptop */
