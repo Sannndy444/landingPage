@@ -589,6 +589,7 @@ footer {
         top: 106.9rem;
         left: 0;
         background-color: var(--third);
+        opacity: 0.5;
         z-index: -1;
     }
 
@@ -609,6 +610,30 @@ footer {
     }
     .hamburger {
         display: block;
+    }
+
+    .about .about-container .apa-img img {
+        width: 25rem;
+    }
+    
+    .about .about-container .apa-text h2 {
+        padding: 1rem;
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    
+    .about .about-container .apa-text {
+        padding: 2rem 0 0 1rem;
+    }
+    
+    .about .about-container .apa-text h2 span {
+        color: var(--primary);
+    }
+    
+    .about .about-container .apa-text p {
+        padding: 1rem 0 0 1rem;
+        font-size: 1.8rem;
+        line-height: 1.4;
     }
 
     .extra {
@@ -681,7 +706,7 @@ footer {
     }
 
     .nilai .nilai-container .nilai-text {
-        padding: 1rem 0 0 3rem;
+        padding: 1rem 0 0 2rem;
     }
 
     .nilai .nilai-container .nilai-text h2 {
@@ -694,9 +719,24 @@ footer {
     }
 
     .nilai .nilai-container .nilai-text p {
-        padding: 1rem 0 0 0;
-        font-size: 1.1rem;
+        padding: 0.5rem 0 0 0;
+        font-size: 1.8rem;
         line-height: 1.4;
+    }
+
+    .nilai .nilai-container .nilai-text .hidden {
+        display: none;
+    }
+
+    .extra .nilai-bg {
+        position: absolute;
+        width: 100%;
+        height: 24.9rem;
+        top: 130.1rem;
+        left: 0;
+        background-color: var(--third);
+        opacity: 0.5;
+        z-index: -1;
     }
 }
 
@@ -704,6 +744,140 @@ footer {
 @media (max-width: 485px) {
     html {
         font-size: 40%;
-        overflow: hidden;
+        /* overflow: hidden; */
+    }
+
+    .about .about-container .apa-img img {
+        width: 25rem;
+    }
+    
+    .about .about-container .apa-text h2 {
+        padding: 1rem;
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    
+    .about .about-container .apa-text {
+        padding: 2rem 0 0 1rem;
+    }
+    
+    .about .about-container .apa-text h2 span {
+        color: var(--primary);
+    }
+    
+    .about .about-container .apa-text p {
+        padding: 1rem 0 0 1rem;
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+
+    .extra {
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    
+    .extra .tet {
+        position: absolute;
+        width: 30rem;
+        height: 30rem;
+        top: 111rem;
+        left: 50rem;
+        background-color: var(--third);
+        opacity: 0.5;
+        border-radius: 15rem;
+        z-index: -1;
+    }
+    
+    .extra .teet {
+        position: absolute;
+        width: 20rem;
+        height: 20rem;
+        top: 115rem;
+        left: 4rem;
+        background-color: var(--third);
+        opacity: 0.5;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+    
+    .extra .teeet {
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        top: 140rem;
+        left: 20rem;
+        background-color: var(--third);
+        opacity: 0.5;
+        border-radius: 8rem;
+        z-index: -1;
+    }
+    
+    .extra .teeeet {
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        top: 70rem;
+        left: 65rem;
+        background-color: var(--third);
+        opacity: 0.5;
+        border-radius: 6rem;
+        z-index: -1;
+    }
+    
+    .extra .teeeeet {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        top: 70rem;
+        left: 75rem;
+        background-color: var(--third);
+        opacity: 0.5;
+        border-radius: 4rem;
+        z-index: -1;
+    }
+
+    .nilai .nilai-container .nilai-text {
+        padding: 1rem 0 0 2rem;
+    }
+
+    .nilai .nilai-container .nilai-text h2 {
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    .nilai .nilai-container .nilai-text h2 span {
+        color: var(--primary);
+    }
+
+    .nilai .nilai-container .nilai-text p {
+        padding: 0.5rem 0 0 0;
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+
+    .nilai .nilai-container .nilai-text .hidden {
+        display: none;
+    }
+
+    .extra .nilai-bg {
+        position: absolute;
+        width: 100%;
+        height: 24.9rem;
+        top: 160.3rem;
+        left: 0;
+        background-color: var(--third);
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    .gallery .gallery-container img {
+        width: 25rem;
+        height: 25rem;
+        padding: 1rem;
+        object-fit: cover;
     }
 }
